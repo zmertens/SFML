@@ -66,8 +66,8 @@ elseif(${CMAKE_SYSTEM_NAME} STREQUAL "Android")
 elseif(${CYGWIN})
     message(FATAL_ERROR "Unfortunately SFML doesn't support Cygwin's 'hybrid' status between both Windows and Linux derivatives.\nIf you insist on using the GCC, please use a standalone build of MinGW without the Cygwin environment instead.")
 else()
-    message(FATAL_ERROR "Unsupported operating system or environment")
-    return()
+#    message(FATAL_ERROR "Unsupported operating system or environment")
+#    return()
 endif()
 
 # detect the compiler
