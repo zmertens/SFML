@@ -34,6 +34,8 @@ set(SRC
     ${INCROOT}/SoundSource.hpp
     ${SRCROOT}/SoundStream.cpp
     ${INCROOT}/SoundStream.hpp
+    ${CMAKE_CURRENT_BINARY_DIR}/../../../../sfml-src/extlibs/headers/miniaudio/miniaudio.c
+    ${CMAKE_CURRENT_BINARY_DIR}/../../../../sfml-src/extlibs/headers/miniaudio/miniaudio.h
 )
 source_group("" FILES ${SRC})
 
